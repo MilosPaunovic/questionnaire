@@ -1,6 +1,6 @@
 {
   "name": "@paunovic/questionnaire",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Serving random questions in multiple languages has never been this easy.",
   "author": "Milos Paunovic <paun992@hotmail.com>",
@@ -28,9 +28,6 @@
     "questionnaire",
     "questions"
   ],
-  "dependencies": {
-    "csvtojson": "^2.0.10"
-  },
   "bugs": {
     "url": "https://github.com/MilosPaunovic/questionnaire/issues"
   },
