@@ -1,0 +1,42 @@
+{
+  "name": "@paunovic/questionnaire",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Serving random questions in multiple languages has never been this easy.",
+  "author": "Milos Paunovic <paun992@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MilosPaunovic/questionnaire.git"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "test": "mocha test/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "mocha": "^10.0.0"
+  },
+  "keywords": [
+    "questionnaire",
+    "questions"
+  ],
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/MilosPaunovic/questionnaire/issues"
+  },
+  "homepage": "https://github.com/MilosPaunovic/questionnaire#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
