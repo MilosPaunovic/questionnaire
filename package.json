@@ -1,6 +1,6 @@
 {
   "name": "@paunovic/questionnaire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Serving random questions in multiple languages has never been this easy.",
   "author": "Milos Paunovic <paun992@hotmail.com>",

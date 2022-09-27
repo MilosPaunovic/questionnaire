@@ -4,6 +4,10 @@ Package for generating random question(s) in multiple languages.
 
 [![Testing](https://github.com/MilosPaunovic/questionnaire/actions/workflows/testing.yml/badge.svg)](https://github.com/MilosPaunovic/questionnaire/actions/workflows/testing.yml)
 
+## Try it Online
+
+[Link to Codepen playground](https://codepen.io/milospaunovic/pen/MWGrdEZ?editors=1011)
+
 ## Motivation
 
 Main idea and motivation behind this was work from [Nenad Ilić](https://github.com/ilic5000) and his post I saw on [Reddit](https://www.reddit.com/r/programiranje/comments/xofp1t/anansi_computer_vision_mini_projekat_izvukao_sam/). You could (and should) read more about it [here](https://github.com/ilic5000/pabkvizgenerator/blob/main/README.md).
