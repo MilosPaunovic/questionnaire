@@ -1,5 +1,5 @@
 /*
- * @paunovic/questionnaire@1.0.0
+ * @paunovic/questionnaire@1.0.4
  * (c) Milos Paunovic
  * Released under the MIT License.
  */
