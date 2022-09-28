@@ -1,7 +1,6 @@
 {
   "name": "@paunovic/questionnaire",
-  "version": "1.0.2",
-  "type": "module",
+  "version": "1.0.3",
   "description": "Serving random questions in multiple languages has never been this easy.",
   "author": "Milos Paunovic <paun992@hotmail.com>",
   "license": "MIT",
@@ -9,13 +8,18 @@
     "type": "git",
     "url": "git://github.com/MilosPaunovic/questionnaire.git"
   },
-  "main": "./lib/index.js",
+  "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "src/*"
+  ],
   "engines": {
     "node": ">=12"
   },
   "scripts": {
     "lint": "eslint ./ --fix",
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "chai": "^4.3.6",
@@ -31,9 +35,5 @@
   "bugs": {
     "url": "https://github.com/MilosPaunovic/questionnaire/issues"
   },
-  "homepage": "https://github.com/MilosPaunovic/questionnaire#readme",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  }
+  "homepage": "https://github.com/MilosPaunovic/questionnaire#readme"
 }

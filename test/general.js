@@ -1,5 +1,5 @@
 import { expect, assert } from 'chai';
-import { initialize } from '../lib/index.js';
+import { initialize } from '../src/index.js';
 
 describe('Testing basic functionalities of the entire library', () => {
 

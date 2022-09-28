@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { initialize } from '../lib/index.js';
+import { initialize } from '../src/index.js';
 
 const QUESTIONNAIRE = initialize()
 
