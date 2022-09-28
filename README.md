@@ -21,13 +21,13 @@ npm i @paunovic/questionnaire
 ## Configuring
 
 ```js
-import { initialize } from '@paunovic/questionnaire'
+import { initialize } from '@paunovic/questionnaire';
 
 // Initialization with default language pack
 const QUESTIONNAIRE = initialize();
 
 // Initialization with different language pack, including variation
-const QUESTIONNAIRE = initialize({ countryCode: 'rs', variation: 'cyrillic' })
+const QUESTIONNAIRE = initialize({ countryCode: 'rs', variation: 'cyrillic' });
 ```
 
 Currently available country codes and variations:
@@ -40,12 +40,24 @@ Currently available country codes and variations:
 
 ## Methods
 
-```js
-// Returns random question from the list
-QUESTIONNAIRE.question()
+#### Question
 
-// Returns array of questions from the list, defaults to 10, could be overridden
+Returns random question from the list in the object form, containing both question and answer properties.
+
+```js
+QUESTIONNAIRE.question();
+
+// => { question: 'QUESTION', answer: 'ANSWER' }
+```
+
+#### Questions
+
+Returns array of question objects from the list, defaults to 10, accepted values between 1 and 10000
+
+```js
 QUESTIONNAIRE.questions(howMany = 10)
+
+// => [{ question: 'QUESTION', answer: 'ANSWER' }, { question: 'QUESTION', answer: 'ANSWER' }...]
 ```
 
 ## Contributing
