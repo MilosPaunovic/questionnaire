@@ -32,9 +32,9 @@ const QUESTIONNAIRE = initialize({ countryCode: 'rs', variation: 'cyrillic' });
 
 Currently available country codes and variations:
 
-| Country       | Country code | Variation  |
-| :------------ | :----------: | :--------: |
-| Serbia `*`    | `rs`         | `cyrillic` |
+| Country       | Country code | Variation  |  Questions  |
+| :------------ | :----------: | :--------: | :---------: |
+| Serbia `*`    | `rs`         | `cyrillic` | 10253       |
 
 `*` Default language; if no `countryCode` parameter is passed to `initialize` method, serbian latin will be loaded as a default language.
 
