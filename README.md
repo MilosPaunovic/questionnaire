@@ -36,7 +36,7 @@ Currently available country codes and variations:
 | :------------ | :----------: | :--------: | :---------: |
 | Serbia `*`    | `rs`         | `cyrillic` | 10253       |
 
-`*` Default language; if no `countryCode` parameter is passed to `initialize` method, serbian latin will be loaded as a default language.
+`*` Default language; if no `countryCode` parameter is passed to `initialize` method, Serbian Latin will be loaded as a default language.
 
 ## Methods
 

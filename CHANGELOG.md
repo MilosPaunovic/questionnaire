@@ -9,4 +9,4 @@
 
 ## [1.0.2](https://github.com/MilosPaunovic/questionnaire/commits/1.0.2)
 
-* Initial release with two variations of questions in serbian (latin and cyrillic) and two methods, question and questions.
+* Initial release with two variations of questions in Serbian (Latin and Cyrillic) and two methods, question and questions.
