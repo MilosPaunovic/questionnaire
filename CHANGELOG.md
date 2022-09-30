@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.0](https://github.com/MilosPaunovic/questionnaire/compare/2.0.0...3.0.0) - 2022-09-30
+
+### Breaking changes
+
+Dropped Node v12 support.
+
 ## [2.0.0](https://github.com/MilosPaunovic/questionnaire/compare/1.0.4...2.0.0) - 2022-09-30
 
 ### Breaking changes

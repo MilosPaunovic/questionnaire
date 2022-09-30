@@ -1,6 +1,6 @@
 {
   "name": "@paunovic/questionnaire",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Serving random questions in multiple languages has never been this easy.",
   "author": "Milos Paunovic <paun992@hotmail.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "questions/*"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
     "lint": "eslint ./ --fix",
