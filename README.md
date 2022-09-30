@@ -42,22 +42,31 @@ Currently available country codes and variations:
 
 #### Question
 
-Returns random question from the list in the object form, containing both question and answer properties.
+Returns random question from the list in the object form, containing question and answer properties.
 
 ```js
-QUESTIONNAIRE.question();
-
-// => { question: 'QUESTION', answer: 'ANSWER' }
+QUESTIONNAIRE.question(); // => { question: 'QUESTION', answer: 'ANSWER' }
 ```
+
+Returns random question from the list in the object form, containing question, answer and wrong (containg number of wrong answers you've specified, in range from 1 to 30) properties.
+
+```js
+QUESTIONNAIRE.question({ wrong: 3}); // => { question: 'QUESTION', answer: 'ANSWER', wrong: ['WRONG', 'WRONG', 'WRONG'] }
+```
+
 
 #### Questions
 
-Returns array of question objects from the list, defaults to 10, accepted values between 1 and 10000
+Returns an array of 10 question objects from the list.
 
 ```js
-QUESTIONNAIRE.questions(howMany = 10)
+QUESTIONNAIRE.questions() // => [{ question: 'QUESTION', answer: 'ANSWER' }, { question: 'QUESTION', answer: 'ANSWER' }...]
+```
 
-// => [{ question: 'QUESTION', answer: 'ANSWER' }, { question: 'QUESTION', answer: 'ANSWER' }...]
+Returns an array of question objects with wrong answers (containg number of wrong answers you've specified, in range from 1 to 30) from the list (number of items defaults to 10, accepted range from 1 to 10000).
+
+```js
+QUESTIONNAIRE.questions({ howMany: 7, wrong: 1 }) // => [{ question: 'QUESTION', answer: 'ANSWER', wrong: ['WRONG'] }, { question: 'QUESTION', answer: 'ANSWER', wrong: ['WRONG'] }...]
 ```
 
 ## Contributing

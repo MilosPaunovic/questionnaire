@@ -18,5 +18,14 @@ module.exports = {
 		'linebreak-style': 'off',
 		'no-unused-vars': 'off',
 		'no-param-reassign': 'off',
+		'no-underscore-dangle': 'off',
 	},
+	overrides: [
+		{
+			files: ['test/*'],
+			rules: {
+				'no-unused-expressions': 'off',
+			},
+		},
+	],
 };
